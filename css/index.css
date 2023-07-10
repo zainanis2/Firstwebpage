@@ -1,0 +1,31 @@
+body
+{
+    margin: 0;
+}
+
+.nav-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:5px ;
+}
+.nav-right
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-right a
+{
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.nav-right a:hover
+{
+    background-color: lightgray;
+}
