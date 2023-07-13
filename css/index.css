@@ -51,7 +51,7 @@ body,p
     color: white;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+    min-height: 60vh;
     gap: 40px;
 
 }
@@ -89,7 +89,7 @@ body,p
 .button
 {
     text-decoration: none;
-    color: black;
+    color: darkgray;
     border: 1px solid white;
     width: 150px;
     text-align: center;
@@ -112,13 +112,13 @@ body,p
     gap: 50px;
     padding-top: 50px;
     color: gray;
-    height: 60vh;
+    min-height: 60vh;
 }
 .info
 {
     font-size: 36px;
     font-weight:bolder;
-    
+
 }
 .info-cards
 {
@@ -131,6 +131,8 @@ body,p
     border-radius: 10px;
     /* min-width: 180px; */
     max-width: 100%;
+    border: 5px solid gray;
+   
 }
 .info-card
 {
@@ -138,4 +140,87 @@ body,p
     display: flex;
     flex-direction: column;
 }
+.quote-container
+{
+    display: flex;
+    flex-direction:column ;
+    background-color: darkgray;
+    color: white;
+    min-height: 40vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
 
+.quote
+{
+    width: 80%;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.auth-container
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.cta-container
+{
+    display: flex;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.cta
+{
+    display: flex;
+    background-color: darkgray;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 90%;
+    padding: 80px 0px;
+    border-radius: 25px;
+    color: white;
+}
+.cta-right 
+{
+    display: flex;
+
+}
+.cta-button
+{
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    width: 150px;
+    padding: 15px 0px;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+.cta-button:hover
+{
+   
+    background-color: lightgray;
+}
+.cta-date
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkgray;
+    background-color: black;
+    min-height: 8vh;
+}
